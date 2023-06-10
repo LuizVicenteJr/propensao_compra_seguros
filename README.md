@@ -19,3 +19,14 @@ O projeto foi dividido em vários passos principais:
 **Otimização e Ajuste de Parâmetros**: Foi realizada uma busca de hiperparâmetros para otimizar o desempenho do modelo. Isso envolveu a seleção dos melhores parâmetros para cada algoritmo testado, utilizando técnicas como Grid Search e Randomized Search.
 
 **Previsões e Resultados**: O modelo finalmente foi utilizado para fazer previsões sobre a propensão de compra de seguros para clientes não vistos durante o treinamento. As previsões foram avaliadas e comparadas com os valores reais para verificar a precisão do modelo.
+
+## Outros Arquivos do Projeto
+Além do notebook principal "Propensao_vendas.ipynb", existem outros arquivos neste repositório:
+
+**dados_propensao.csv**: Este arquivo contém os dados utilizados no projeto, incluindo as variáveis de entrada e a variável alvo (propensão de compra de seguros).
+
+**:requirements.txt**:: O arquivo de requisitos contém as dependências do projeto. Ele lista todas as bibliotecas Python e suas versões necessárias para executar o código.
+
+**model.pkl**: Modelo salvo para utilização posterior
+
+**resultado.xlsx**: Tabela EXCEL que poderá ser utilizada para deploy do modelo bem como visualização dos clientes mais propensos a adquirir um novo seguro. 
